@@ -1,14 +1,22 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
+import Customer from './components/Customer';
 import './App.css';
 
+const customer = {        //props를 만들어서 값을 작성
+  'name' : '홍길동',
+  'birthday' : '961222',
+  'gender' : '남자',
+  'job' : '대학생'
+}
 class App extends Component {
   render() {
-      return(
-        <div className="gray-background">
-          <img src={logo} lat="logo" />
-          <h2>Let's develop management system!</h2>
-        </div>
+    return (
+        <Customer         //전달 받은 props를 이용하여 구현
+          name={customer.name}
+          birthday={customer.birthday}
+          gender={customer.gender}
+          job={customer.job}
+        />
     );
   }
 }
