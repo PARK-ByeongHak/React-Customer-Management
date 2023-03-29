@@ -1,4 +1,6 @@
-# Getting Started with Create React App
+## Customer-Management System
+이 프로젝츠는 React 강의를 토대로 만들어진 고객 관리 시스템
+(Customer-Management System)입니다.
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
